@@ -46,13 +46,25 @@
         "**/.turbo/**",
         "**/coverage/**",
         "**/*.config.js",
-        "**/*.config.ts"
+        "**/*.config.ts",
+        "**/routeTree.gen.ts"
       ],
       "linter": {
         "enabled": false
       },
       "formatter": {
         "enabled": false
+      }
+    },
+    {
+      "includes": ["**/*.astro"],
+      "linter": {
+        "rules": {
+          "correctness": {
+            "noUnusedImports": "off",
+            "noUnusedVariables": "off"
+          }
+        }
       }
     }
   ]

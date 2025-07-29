@@ -10,17 +10,22 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@repo/zod-schemas": "*",
     "@repo/ui": "*",
+    "@repo/zod-schemas": "*",
+    "@tanstack/react-query": "^5.83.0",
+    "@tanstack/react-query-devtools": "^5.83.0",
+    "@tanstack/react-router": "^1.130.8",
+    "@tanstack/react-router-devtools": "^1.130.8",
     "react": "*",
     "react-dom": "*"
   },
   "devDependencies": {
     "@repo/tsconfig": "*",
+    "@tanstack/router-plugin": "^1.130.8",
     "@types/react": "*",
     "@types/react-dom": "*",
-    "typescript": "*",
     "@vitejs/plugin-react-swc": "^3.10.2",
+    "typescript": "*",
     "vite": "^7.0.4"
   }
 }
