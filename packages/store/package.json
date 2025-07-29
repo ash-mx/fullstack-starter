@@ -1,0 +1,29 @@
+{
+  "name": "@repo/store",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./auth": "./src/auth.ts",
+    "./ui": "./src/ui.ts",
+    "./app": "./src/app.ts"
+  },
+  "scripts": {
+    "lint": "biome check .",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/bun": "*",
+    "@repo/tsconfig": "*",
+    "@types/react": "*",
+    "typescript": "*"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "dependencies": {
+    "immer": "^10.1.1",
+    "zustand": "^5.0.6"
+  }
+}

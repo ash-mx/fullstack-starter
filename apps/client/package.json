@@ -12,6 +12,7 @@
   "dependencies": {
     "@repo/ui": "*",
     "@repo/zod-schemas": "*",
+    "@repo/store": "*",
     "@tanstack/react-query": "^5.83.0",
     "@tanstack/react-query-devtools": "^5.83.0",
     "@tanstack/react-router": "^1.130.8",
