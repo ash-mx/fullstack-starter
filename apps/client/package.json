@@ -1,0 +1,26 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "biome check .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@repo/zod-schemas": "*",
+    "@repo/ui": "*",
+    "react": "*",
+    "react-dom": "*"
+  },
+  "devDependencies": {
+    "@repo/tsconfig": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "typescript": "*",
+    "@vitejs/plugin-react-swc": "^3.10.2",
+    "vite": "^7.0.4"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@repo/tsconfig",
+  "version": "0.0.1",
+  "private": true,
+  "files": [
+    "tsconfig.app.json",
+    "tsconfig.base.json",
+    "tsconfig.marketing.json",
+    "tsconfig.node.json",
+    "tsconfig.server.json",
+    "tsconfig.ui.json",
+    "tsconfig.zod.json"
+  ]
+}

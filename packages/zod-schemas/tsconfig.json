@@ -1,0 +1,8 @@
+{
+  "extends": "@repo/tsconfig/tsconfig.zod.json",
+  "compilerOptions": {
+    "outDir": "dist"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

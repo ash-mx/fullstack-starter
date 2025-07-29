@@ -1,0 +1,8 @@
+{
+  "extends": [
+    "@repo/tsconfig/tsconfig.marketing.json",
+    "astro/tsconfigs/strict"
+  ],
+  "include": [".astro/types.d.ts", "**/*"],
+  "exclude": ["dist"]
+}

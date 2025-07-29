@@ -1,0 +1,75 @@
+# dependencies (bun install)
+node_modules
+.turbo
+
+# output
+out
+dist
+dist-ssr
+*.tgz
+*.local
+
+# code coverage
+coverage
+*.lcov
+
+# logs
+logs
+_.log
+report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# caches
+.eslintcache
+.cache
+*.tsbuildinfo
+
+# IntelliJ based IDEs
+.idea
+
+# Finder (MacOS) folder config
+.DS_Store
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.cursor/*
+!.cursor/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Additional patterns for this tech stack
+# Turbo build outputs (from turbo.json config)
+build/
+
+# Astro cache and build artifacts
+.astro/
+
+# Biome cache (linter/formatter)
+.biome/
+
+# Test outputs
+test-results/
+playwright-report/
+coverage/
+coverage.lcov
+
+# Temporary files
+*.tmp
+*.temp

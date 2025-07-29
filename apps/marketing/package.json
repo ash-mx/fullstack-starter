@@ -1,0 +1,29 @@
+{
+  "name": "marketing",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "lint": "biome check ."
+  },
+  "devDependencies": {
+    "@repo/tsconfig": "*",
+    "@types/bun": "*",
+    "typescript": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*"
+  },
+  "dependencies": {
+    "@repo/zod-schemas": "*",
+    "@repo/ui": "*",
+    "@astrojs/mdx": "^4.3.1",
+    "@astrojs/react": "^4.3.0",
+    "astro": "^5.12.4",
+    "react": "*",
+    "react-dom": "*"
+  }
+}

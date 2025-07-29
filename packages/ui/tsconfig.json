@@ -1,0 +1,6 @@
+{
+  "extends": "@repo/tsconfig/tsconfig.ui.json",
+  "compilerOptions": {},
+  "include": ["types.d.ts", "components/**/*", "styles/**/*", "tokens/**/*"],
+  "exclude": ["node_modules", "dist", "**/*.test.ts", "**/*.spec.ts"]
+}

@@ -1,0 +1,22 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    // Override base config for server builds
+    "noEmit": false,
+    "declaration": true,
+    "outDir": "dist",
+
+    // Server-specific settings
+    "types": ["bun-types"],
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": false,
+    "verbatimModuleSyntax": false,
+
+    // Enable decorators for potential future use (e.g., validation, DI)
+    "emitDecoratorMetadata": true,
+
+    // Ensure proper ESM output
+    "module": "ESNext",
+    "target": "ESNext"
+  }
+}

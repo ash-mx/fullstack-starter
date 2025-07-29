@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    // Override lib for Node.js environment (remove DOM types)
+    "lib": ["ESNext"],
+
+    /* Bundler mode */
+    "moduleDetection": "force",
+
+    /* Linting */
+    "erasableSyntaxOnly": true,
+    "noUncheckedSideEffectImports": true
+  }
+}

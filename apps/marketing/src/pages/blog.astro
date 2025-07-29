@@ -1,0 +1,25 @@
+---
+import { getCollection } from "astro:content";
+import MainLayout from "../layouts/MainLayout.astro";
+
+const pageTitle = "Blog Page";
+
+const allPosts = await getCollection("blog");
+---
+
+<MainLayout title={pageTitle}>
+  <a href="/">Home</a>
+  <a href="/about/">About</a>
+
+  <h1>Blog Page</h1>
+
+  <ul>
+    {
+      allPosts.map((post) => (
+        <li>
+          <a href={`/posts/${post.id}`}>{post.data.title}</a>
+        </li>
+      ))
+    }
+  </ul>
+</MainLayout>

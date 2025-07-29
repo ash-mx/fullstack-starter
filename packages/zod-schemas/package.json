@@ -1,0 +1,19 @@
+{
+  "name": "@repo/zod-schemas",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "devDependencies": {
+    "@types/bun": "*",
+    "@repo/tsconfig": "*",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "zod": "^4.0.11"
+  }
+}
