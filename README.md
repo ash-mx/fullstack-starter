@@ -143,9 +143,15 @@ Shared React component library with SCSS styling and design tokens.
 
 **Exports:**
 
-- `./components` - React components
+- `./components` - React components (Button, etc.)
 - `./styles` - SCSS stylesheets
-- `./tokens` - Design tokens
+- `./tokens` - Design tokens (spacing, colors, etc.)
+
+**Features:**
+
+- CSS custom properties for consistent spacing (xs: 0.25rem, sm: 0.5rem, md: 1rem, lg: 1.5rem, xl: 2rem)
+- SCSS modules for component styling
+- TypeScript definitions for all components
 
 ### `@repo/zod-schemas`
 
@@ -162,6 +168,17 @@ Centralized TypeScript configurations for consistent type checking.
 3. **Type checking** runs in the background
 4. **Linting** with Biome ensures code quality
 5. **Build** with Turbo for optimized performance
+
+## ⚙️ Code Quality Configuration
+
+The project uses [Biome](https://biomejs.dev) for fast linting and formatting with special configurations:
+
+- **Astro files**: Custom rules disabled for `noUnusedImports` and `noUnusedVariables` due to template usage patterns
+- **Generated files**: Automatically excluded from linting (e.g., `routeTree.gen.ts`)
+- **Consistent formatting**: 2-space indentation, double quotes, semicolons
+- **Import organization**: Automatic import sorting and cleanup
+
+Run `bun run check` to see all linting results across the monorepo.
 
 ## 🏗️ Architecture Decisions
 
