@@ -1,12 +1,15 @@
 import { Hono } from "hono";
-import { getAllPosts, getPostById, createPost } from "./handlers";
-import { requireAuth, logPostActivity } from "./middleware";
+import { createPost, getAllPosts, getPostById } from "./handlers";
+import { logPostActivity, requireAuth } from "./middleware";
 
 const posts = new Hono()
-  .use("*", logPostActivity) // Apply middleware
-  .get("/", getAllPosts) // Public route
-  .get("/:id", getPostById) // Public route
-  .use("/", requireAuth) // Apply auth middleware to routes below
-  .post("/", createPost); // Protected route
+  .use("*", logPostActivity) // Apply logging to all routes
+
+  // Public routes
+  .get("/", getAllPosts)
+  .get("/:id", getPostById)
+
+  // Protected routes (apply auth middleware only to these)
+  .post("/", requireAuth, createPost);
 
 export default posts;

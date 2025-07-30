@@ -1,6 +1,6 @@
-import type { Context } from "hono";
-import type { Post, CreatePostRequest } from "@repo/zod-schemas";
+import type { CreatePostRequest, Post } from "@repo/zod-schemas";
 import { createPostSchema } from "@repo/zod-schemas";
+import type { Context } from "hono";
 
 // Mock Data
 const posts: Post[] = [
