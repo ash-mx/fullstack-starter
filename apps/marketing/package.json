@@ -18,11 +18,11 @@
     "@types/react-dom": "*"
   },
   "dependencies": {
-    "@repo/zod-schemas": "*",
-    "@repo/ui": "*",
     "@astrojs/mdx": "^4.3.1",
     "@astrojs/react": "^4.3.0",
-    "astro": "^5.12.4",
+    "@repo/ui": "*",
+    "@repo/zod-schemas": "*",
+    "astro": "^5.12.5",
     "react": "*",
     "react-dom": "*"
   }
