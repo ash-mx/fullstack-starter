@@ -18,7 +18,8 @@
     "@tanstack/react-router": "^1.130.8",
     "@tanstack/react-router-devtools": "^1.130.8",
     "react": "*",
-    "react-dom": "*"
+    "react-dom": "*",
+    "hono": "*"
   },
   "devDependencies": {
     "@repo/tsconfig": "*",

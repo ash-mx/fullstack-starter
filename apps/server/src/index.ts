@@ -1,12 +1,22 @@
 import { Hono } from "hono";
+import { cors } from "hono/cors";
 import { logger } from "hono/logger";
+import posts from "./api/posts";
 
 const app = new Hono();
 
 app.use(logger());
+app.use(cors());
+
 app.get("/", (c) => {
   return c.text("Hello Hono!");
 });
+
+// Mount the posts API
+const routes = app.route("/api/posts", posts);
+
+// Export the app type for RPC
+export type AppType = typeof routes;
 
 export default {
   port: 3000,

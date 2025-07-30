@@ -4,6 +4,7 @@
     "": {
       "name": "fullstack-starter",
       "dependencies": {
+        "hono": "^4.8.10",
         "react": "^19.1.1",
         "react-dom": "^19.1.1",
       },
@@ -27,6 +28,7 @@
         "@tanstack/react-query-devtools": "^5.83.0",
         "@tanstack/react-router": "^1.130.8",
         "@tanstack/react-router-devtools": "^1.130.8",
+        "hono": "*",
         "react": "*",
         "react-dom": "*",
       },
@@ -65,7 +67,7 @@
       "version": "0.0.0",
       "dependencies": {
         "@repo/zod-schemas": "*",
-        "hono": "^4.8.10",
+        "hono": "*",
       },
       "devDependencies": {
         "@repo/tsconfig": "*",
