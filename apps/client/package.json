@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@repo/tsconfig": "*",
-    "@tanstack/router-plugin": "^1.130.12",
+    "@tanstack/router-plugin": "^1.130.15",
     "@types/react": "*",
     "@types/react-dom": "*",
     "@vitejs/plugin-react-swc": "^3.10.2",
