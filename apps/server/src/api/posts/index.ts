@@ -1,5 +1,5 @@
 import { Hono } from "hono";
-import { createPost, getAllPosts, getPostById } from "./handlers";
+import { createPost, getAllPosts, getPostById } from "./controller";
 import { logPostActivity, requireAuth } from "./middleware";
 
 const posts = new Hono()
