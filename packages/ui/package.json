@@ -16,7 +16,7 @@
     "@types/react": "*",
     "@types/react-dom": "*",
     "typescript": "*",
-    "sass": "^1.89.2"
+    "sass": "^1.90.0"
   },
   "peerDependencies": {
     "react": "*",
