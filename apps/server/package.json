@@ -12,11 +12,17 @@
   },
   "dependencies": {
     "@repo/zod-schemas": "*",
-    "hono": "*"
+    "dotenv": "^17.2.1",
+    "drizzle-orm": "^0.44.4",
+    "hono": "*",
+    "pg": "^8.16.3"
   },
   "devDependencies": {
     "@repo/tsconfig": "*",
     "@types/bun": "*",
+    "@types/pg": "^8.15.5",
+    "drizzle-kit": "^0.31.4",
+    "tsx": "^4.20.3",
     "typescript": "*"
   }
 }
