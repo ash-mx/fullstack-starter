@@ -1,6 +1,6 @@
 import { config } from "dotenv";
 import { defineConfig } from "drizzle-kit";
-import { CONFIG_PATH } from "./src/lib/lib.config";
+import { CONFIG_PATH } from "./src/lib/config";
 
 config({ path: CONFIG_PATH });
 

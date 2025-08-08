@@ -23,6 +23,7 @@
     "@repo/ui": "*",
     "@repo/zod-schemas": "*",
     "astro": "^5.12.8",
+    "better-auth": "*",
     "react": "*",
     "react-dom": "*"
   }
