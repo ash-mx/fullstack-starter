@@ -13,10 +13,10 @@
     "@repo/store": "*",
     "@repo/ui": "*",
     "@repo/zod-schemas": "*",
-    "@tanstack/react-query": "^5.84.1",
-    "@tanstack/react-query-devtools": "^5.84.1",
-    "@tanstack/react-router": "^1.130.12",
-    "@tanstack/react-router-devtools": "^1.130.13",
+    "@tanstack/react-query": "^5.84.2",
+    "@tanstack/react-query-devtools": "^5.84.2",
+    "@tanstack/react-router": "^1.131.2",
+    "@tanstack/react-router-devtools": "^1.131.2",
     "better-auth": "*",
     "hono": "*",
     "react": "*",
@@ -24,11 +24,11 @@
   },
   "devDependencies": {
     "@repo/tsconfig": "*",
-    "@tanstack/router-plugin": "^1.130.16",
+    "@tanstack/router-plugin": "^1.131.2",
     "@types/react": "*",
     "@types/react-dom": "*",
     "@vitejs/plugin-react-swc": "^4.0.0",
     "typescript": "*",
-    "vite": "^7.1.0"
+    "vite": "^7.1.1"
   }
 }

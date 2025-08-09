@@ -22,7 +22,7 @@
     "@astrojs/react": "^4.3.0",
     "@repo/ui": "*",
     "@repo/zod-schemas": "*",
-    "astro": "^5.12.8",
+    "astro": "^5.12.9",
     "better-auth": "*",
     "react": "*",
     "react-dom": "*"
