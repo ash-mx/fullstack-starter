@@ -12,10 +12,10 @@
   },
   "dependencies": {
     "@repo/zod-schemas": "*",
-    "dotenv": "^17.2.1",
-    "drizzle-orm": "^0.44.4",
-    "drizzle-zod": "^0.8.3",
     "better-auth": "*",
+    "dotenv": "^17.2.1",
+    "drizzle-orm": "^0.44.5",
+    "drizzle-zod": "^0.8.3",
     "hono": "*",
     "pg": "^8.16.3"
   },
