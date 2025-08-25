@@ -18,11 +18,11 @@
     "@types/react-dom": "*"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.3.3",
+    "@astrojs/mdx": "^4.3.4",
     "@astrojs/react": "^4.3.0",
     "@repo/ui": "*",
     "@repo/zod-schemas": "*",
-    "astro": "^5.13.0",
+    "astro": "^5.13.3",
     "better-auth": "*",
     "react": "*",
     "react-dom": "*"
