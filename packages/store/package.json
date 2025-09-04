@@ -23,7 +23,7 @@
     "react": "*"
   },
   "dependencies": {
-    "immer": "^10.1.1",
+    "immer": "^10.1.3",
     "zustand": "^5.0.8"
   }
 }
